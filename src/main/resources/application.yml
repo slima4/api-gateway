@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 9099
+
+integration:
+  game-engine:
+    host: localhost:9097
+  game-session:
+    host: localhost:9098
